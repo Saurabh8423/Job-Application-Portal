@@ -15,7 +15,7 @@ export default function ApplicationForm({ job }) {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4 bg-gray-100 p-6 rounded-lg">
-      <h2 className="text-lg font-bold>Apply for {job.title}</h2>
+      <h2 className="text-lg font-bold">Apply for {job.title}</h2>
    <input
         type="text"
         name="name"
