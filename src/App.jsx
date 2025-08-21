@@ -10,7 +10,7 @@ function App() {
   
   return (
   <Router>
-    <div>
+    <div className='min-h-screen flex flex-col'>
       <header>
         <h1>Job Application Portal</h1>
         <nav className='space-x-4'>
