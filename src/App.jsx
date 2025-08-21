@@ -22,7 +22,8 @@ function App() {
       <main>
         {/* Routes will be defined here */}
         <Route path="/" element={<Home />} />
-        <Route path="/applications" element={<Applications />} />
+        <Route path="/job/:id" element={<JobDetails />} />
+        <Route path="/applications" element={<ApplicationList />} />
         <Route path="/profile" element={<Profile />} />
       </main>
     </div>
