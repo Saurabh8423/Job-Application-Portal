@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function FormStep({ step, title, children }) {
   return (
     <div className="p-4 border rounded-lg bg-white shadow-sm">
