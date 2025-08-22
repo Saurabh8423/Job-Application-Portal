@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 export default function JobCard({ job }) {
   return (
-    <div>
-      <h2>{job.title}</h2>
-      <p>{job.company}</p>
-      <p>{job.location}</p>
+    <div className="border p-4 rounded-lg shadow-md bg-white hover:shadow-lg transition">
+      <h2 className="text-lg font-bold">{job.title}</h2>
+      <p className="text-gray-600">{job.company}</p>
+      <p className="text-sm text-gray-500">{job.location}</p>
 
        <Link
         to={`/job/${job.id}`}
