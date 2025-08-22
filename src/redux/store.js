@@ -1,11 +1,10 @@
-import { configureStore } from '@reduxjs/toolkit';
-import React from 'react';
-import applicationReducer from './applicationSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import applicationReducer from "./applicationSlice"; 
 
-const store = configureStore ({
+const store = configureStore({
   reducer: {
     applications: applicationReducer,
   },
 });
 
-export default store
+export default store;

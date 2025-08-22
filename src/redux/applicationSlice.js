@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
-import React from 'react'
-
+import React from 'react';
+  
 const applicationSlice = createSlice ({
   name: 'applications',
   initialState:[],
@@ -13,4 +13,4 @@ const applicationSlice = createSlice ({
 
 export const { addApplication } = applicationSlice.actions;
 
-export default applicationSlice
+export default applicationSlice.reducer;
